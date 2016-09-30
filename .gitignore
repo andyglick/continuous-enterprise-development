@@ -1,11 +1,15 @@
-target
+target/
 .classpath
 .project
 .settings
 .checkstyle
 test-output
 log.txt
-.idea
+.idea/
 *.iml
+*.ipr
+*.iws
 *sublime-*
 /*.html
+atlassian*.xml
+**/*.log
