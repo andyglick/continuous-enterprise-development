@@ -20,13 +20,21 @@
   <version>1.0.0-alpha-1</version>
   <packaging>pom</packaging>
   <name>Continuous Enterprise Development in Java Example Aggregator and Build Parent</name>
-  <url>http://continuousdev.org</url>
+  <url>https://github.com/arquillian/continuous-enterprise-development</url>
   <description>Continuous Enterprise Development in Java Aggregator and Build Parent</description>
+
+  <prerequisites>
+    <maven>${maven.version}</maven>
+  </prerequisites>
 
   <!-- Properties -->
   <properties>
     <!-- Versioning -->
+    <java.version>1.8</java.version>
     <junit.version>4.12</junit.version>
+    <maven.compiler.source>${java.version}</maven.compiler.source>
+    <maven.compiler.target>${java.version}</maven.compiler.target>
+    <maven.version>3.3.9</maven.version>
     <surefire.version>2.19.1</surefire.version>
     <testng.version>6.9.13.6</testng.version>
   </properties>
